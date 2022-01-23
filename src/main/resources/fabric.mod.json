@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "librariantweaks",
+  "version": "0.1",
+
+  "name": "Librarian Tweaks",
+  "description": "Custom mod made for Ellisten#0013",
+  "authors": [
+    "Yoruniii"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/librariantweaks/LibrarianTweaks.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.yoruniii.librariantweaks.LibrarianTweaks"
+    ]
+  },
+  "mixins": [
+    "librariantweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
